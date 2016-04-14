@@ -29,18 +29,18 @@ public class StringsAndIntegers {
 		String x, y= "";
 		//Import a scanner to allow input!
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Please write a string here: ");
 		String s =  sc.nextLine(); //Takes in user's input
 		
 		
-		
+		//Get the characters position in the string in the reverse direction
+		//Add the character to the string y
+		for(int l = s.length()-1; l >=0; l-- ){ 
+			y+=s.charAt(l); //Add the character from the last to the first
+		}
+		System.out.println(y);
+				
 		sc.close();
-	
-		
-		
-		
-		
-		
-		
 	}
 
 }
