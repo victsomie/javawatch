@@ -29,6 +29,11 @@ public class StringsAndIntegers {
 		String x, y= "";
 		//Import a scanner to allow input!
 		Scanner sc = new Scanner(System.in);
+		String s =  sc.nextLine(); //Takes in user's input
+		
+		
+		
+		sc.close();
 	
 		
 		
